@@ -1,0 +1,7 @@
+name = "MakieRichText"
+uuid = "9317242e-1230-4881-bcbc-8f9566308e0e"
+authors = ["daizutabi <daizutabi@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"

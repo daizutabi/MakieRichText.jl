@@ -1,0 +1,3 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+MakieRichText = "9317242e-1230-4881-bcbc-8f9566308e0e"
