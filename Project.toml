@@ -3,5 +3,9 @@ uuid = "9317242e-1230-4881-bcbc-8f9566308e0e"
 authors = ["daizutabi <daizutabi@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+
 [compat]
+Makie = "0.20"
 julia = "1.2"
