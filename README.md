@@ -12,5 +12,5 @@
 ```julia
 using MakieRichText
 
-rt"a"  # rich("a")
+R"a"  # rich("a")
 ```
