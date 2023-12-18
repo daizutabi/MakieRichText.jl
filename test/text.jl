@@ -42,6 +42,29 @@ end
 end
 
 @testitem "compound" begin
-    rt = R"αβ^γδ"
-    println(rt)
+    using Makie
+    rt = R"α^β"
+    for i in 1:2
+        a = rt.children[i]
+        @test a.type == [:span, :sup][i]
+        @test a.attributes[:font] == :italic
+    end
+    rt = R"ab^cd"
+    for i in 1:2
+        a = rt.children[i]
+        @test a.type == [:span, :sup][i]
+        @test a.attributes[:font] == :regular
+    end
+    rt = R"α_β"
+    for i in 1:2
+        a = rt.children[i]
+        @test a.type == [:span, :sub][i]
+        @test a.attributes[:font] == :italic
+    end
+    rt = R"ab_cd"
+    for i in 1:2
+        a = rt.children[i]
+        @test a.type == [:span, :sub][i]
+        @test a.attributes[:font] == :regular
+    end
 end

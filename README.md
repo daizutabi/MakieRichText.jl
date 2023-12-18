@@ -12,5 +12,17 @@
 ```julia
 using MakieRichText
 
-R"a"  # rich("a")
+R"a"  # rich("a"; font=:italic)
+R"a"b  # rich("a"; font=:bold)
+R"abc"  # rich("a"; font=:regular)
+R"abc"i  # rich("a"; font=:italic)
+
+R"^a"  # superscript("a"; font=:italic)
+R"_a"  # subscript("a"; font=:italic)
+
+# other examples
+R"α^β"  # italic
+R"α_β"  # italic
+R"ab^cd"  # regular
+R"ab_cd"  # regular
 ```
