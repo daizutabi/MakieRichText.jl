@@ -14,8 +14,8 @@ using MakieRichText
 
 R"a"  # rich("a"; font=:italic)
 R"a"b  # rich("a"; font=:bold)
-R"abc"  # rich("a"; font=:regular)
-R"abc"i  # rich("a"; font=:italic)
+R"abc"  # rich("abc"; font=:regular)
+R"abc"i  # rich("abc"; font=:italic)
 
 R"^a"  # superscript("a"; font=:italic)
 R"_a"  # subscript("a"; font=:italic)
