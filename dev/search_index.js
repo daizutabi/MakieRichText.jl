@@ -1,3 +1,3 @@
 var documenterSearchIndex = {"docs":
-[{"location":"#MakieRichText","page":"Home","title":"MakieRichText","text":"Documentation for MakieRichText.\n\n","category":"section"}]
+[{"category":"section","location":"#MakieRichText","page":"Home","text":"Documentation for MakieRichText.\n\n","title":"MakieRichText"}]
 }
